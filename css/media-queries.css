@@ -1,7 +1,5 @@
 @media all and (min-width: 325px){
-  /* .content__menu--list li {
-    max-width: 95%;
-  } */
+ 
   .content__image img {
     display: flex;
     border-radius: 5px;
@@ -15,6 +13,13 @@
       display: flex;
       flex-flow: row wrap;
       justify-content: space-between;
+    }
+    body {
+      font-family: 'TT Lakes';
+    }
+
+    .content__image img {
+      margin-left: 48px;
     }
 
     .wrap-1 {
@@ -35,12 +40,16 @@
     .container{
       width: 1120px;
     }
+    .content__main {
+      width: 490px;
+    }
 
     .content__image img {
       display: flex;
       border-radius: 5px;
       width: 530px;
       height: 380px;
+      margin-left: 36px;
   }
 
   .title__menu {
