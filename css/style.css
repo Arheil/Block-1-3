@@ -154,9 +154,8 @@
   .top {
 	display: flex;
 	justify-content: space-between;
-	/* box-shadow: 0 2px #D9FFF5; */
+    box-shadow: 0 2px #D9FFF5; 
 	height: 88px;
-	border-bottom: thick 2px #D9FFF5; 
   }
 
   .top__menu, .top__nav {
